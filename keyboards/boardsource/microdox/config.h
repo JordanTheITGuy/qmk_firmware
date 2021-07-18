@@ -25,6 +25,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER    Boardsource
 #define PRODUCT         microdox
 
+#define TAPPING_TERM 175
+
+// Prevent normal rollover on alphas from accidentally triggering mods.
+#define IGNORE_MOD_TAP_INTERRUPT
+
+// Auto Shift
+#define NO_AUTO_SHIFT_ALPHA
+
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS 8
